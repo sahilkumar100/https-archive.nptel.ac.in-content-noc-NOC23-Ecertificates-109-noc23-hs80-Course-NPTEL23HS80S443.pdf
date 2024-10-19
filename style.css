@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Make the body take up the entire space without overflow */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Full-screen iframe, no scrollbars */
+iframe {
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    overflow: hidden;
+}
